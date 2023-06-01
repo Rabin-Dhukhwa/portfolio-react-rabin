@@ -3,7 +3,7 @@ import React from "react";
 export const Skills = () => {
   return (
     <>
-      <section class="section3">
+      <section class="section3" id="skills">
         <div class="skills-container flex">
           <div class="flex">
             <i class="fa-brands fa-html5"></i>
