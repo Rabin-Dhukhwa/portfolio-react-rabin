@@ -1,21 +1,22 @@
 import React from "react";
 import user from "../assets/imgs/user.png";
+import { Layout } from "./Layout";
 
 export const About = () => {
   return (
-    <>
+    <Layout>
       {" "}
       {/* <!-- About Section --> */}
-      <section class="section5 flex" id="about">
-        <h1 class="title">About Me</h1>
+      <section className="section5 flex" id="about">
+        <h1 className="title">About Me</h1>
 
-        <div class="about-container flex">
-          <div class="left">
-            <div class="bg"></div>
+        <div className="about-container flex">
+          <div className="left">
+            <div className="bg"></div>
             <img src={user} alt="" />
           </div>
 
-          <div class="right flex">
+          <div className="right flex">
             <h1>Rabin</h1>
             <p>
               I grew up in Nepal and am currently living in Sydney, Australia.
@@ -25,8 +26,8 @@ export const About = () => {
 
             <a href="#!">Connect with me</a>
 
-            <div class="flex">
-              <div class="tag">Interests</div>
+            <div className="flex">
+              <div className="tag">Interests</div>
               <div>
                 <span>Coding</span>
                 <span>Football</span>
@@ -37,6 +38,6 @@ export const About = () => {
         </div>
       </section>
       {/* <!-- About Section End--> */}
-    </>
+    </Layout>
   );
 };

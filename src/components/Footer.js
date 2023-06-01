@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -6,22 +7,33 @@ export const Footer = () => {
       {" "}
       {/* <!-- Footer --> */}
       <footer>
-        <div class="footer-container flex">
-          <div class="footer-top flex">
-            <div class="flex">
+        <div className="footer-container flex">
+          <div className="footer-top flex">
+            <div className="flex">
               <h3>Links</h3>
-              <ul class="flex">
-                <li>Home</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact</li>
+              <ul className="flex">
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/skills">Skills</Link>
+                </li>
+                <li>
+                  <Link to="/projects">Projects</Link>
+                </li>
+                <li>
+                  <Link to="/about"> About</Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link to="/contact"> Contact</Link>
+                </li>
               </ul>
             </div>
 
-            <div class="flex">
+            <div className="flex">
               <h3>External Links</h3>
-              <ul class="flex">
+              <ul className="flex">
                 <li>LinkedIn</li>
                 <li>GitHub</li>
                 <li>YouTube</li>
@@ -29,14 +41,14 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div class="footer-bottom flex">
+          <div className="footer-bottom flex">
             <p>@2022 | All rights reserved.</p>
           </div>
         </div>
         {/* <!-- Footer End --> */}
-        <div class="scroll-to-top">
-          <a href="#home" class="scroll-btn">
-            <i class="fa-solid fa-chevron-up"></i>
+        <div className="scroll-to-top">
+          <a href="#home" className="scroll-btn">
+            <i className="fa-solid fa-chevron-up"></i>
           </a>
         </div>
       </footer>
