@@ -111,7 +111,7 @@ section {
   background: var(--color-yellow);
   height: 60%;
   width: 4px;
-  left: 53%;
+  left: 43%;
   position: absolute;
 }
 .primary-header .right #check,
@@ -158,7 +158,7 @@ section {
     font-size: 0.8rem;
   }
   .primary-header .logo div:nth-child(2) .line::before {
-    left: 52%;
+    left: 43%;
   }
 }
 
