@@ -175,7 +175,7 @@ section {
       }
 
       #check:checked ~ ul {
-        left: calc(100% - 15rem);
+        left: calc(100% - 10rem);
       }
     }
   }
@@ -195,7 +195,7 @@ section {
           .line {
             font-size: 0.8rem;
             &::before {
-              left: 43%;
+              left: 35%;
             }
           }
         }

@@ -8,7 +8,7 @@ export const Layout = ({ children }) => {
       {/* header---- */}
       <Header />
       {/* dynamic page------- */}
-      <main style={{ minHeight: "65vh" }}>{children}</main>
+      <main style={{ minHeight: "50vh" }}>{children}</main>
       {/* footer--------- */}
       <Footer />
     </>

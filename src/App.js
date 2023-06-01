@@ -5,12 +5,10 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { About } from "./components/About";
 import { GetInTouch } from "./components/GetInTouch";
-import { Footer } from "./components/Footer";
 
 //importing images
 
 // import cv from "./assets/Rabin.Resume.pdf";
-import { Header } from "./components/Header";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 
@@ -23,8 +21,8 @@ function App() {
       <div className="wrapper">
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="skills" element={<Skills />} />
-          <Route path="projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<GetInTouch />} />
         </Routes>

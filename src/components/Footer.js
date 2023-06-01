@@ -25,7 +25,6 @@ export const Footer = () => {
                   <Link to="/about"> About</Link>
                 </li>
                 <li>
-                  {" "}
                   <Link to="/contact"> Contact</Link>
                 </li>
               </ul>
@@ -34,15 +33,25 @@ export const Footer = () => {
             <div className="flex">
               <h3>External Links</h3>
               <ul className="flex">
-                <li>LinkedIn</li>
-                <li>GitHub</li>
-                <li>YouTube</li>
+                <li>
+                  <Link
+                    to="https://www.linkedin.com/in/rabin-dhukhwa-8a5505156/"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://github.com/Rabin-Dhukhwa" target="_blank">
+                    GitHub
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
 
           <div className="footer-bottom flex">
-            <p>@2022 | All rights reserved.</p>
+            <p>@2023 | All rights reserved.</p>
           </div>
         </div>
         {/* <!-- Footer End --> */}
