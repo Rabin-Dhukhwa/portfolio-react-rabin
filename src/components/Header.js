@@ -3,10 +3,6 @@ import React from "react";
 export const Header = () => {
   return (
     <>
-      <label for="darkMode">
-        <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
-      </label>
-
       {/* <!-- Header --> */}
       <header class="primary-header flex">
         <div class="logo flex">

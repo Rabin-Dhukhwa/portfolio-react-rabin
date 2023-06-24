@@ -167,6 +167,7 @@ section {
   margin: 10rem auto 3rem auto;
   padding: 0 2rem;
   width: 90vw;
+  height: 65vh;
   grid-template-areas: "one two";
 }
 .section1 .left {
@@ -176,7 +177,8 @@ section {
   align-items: center;
 }
 .section1 .left img {
-  height: 115%;
+  height: 104%;
+  max-width: 34%;
 }
 .section1 .right {
   grid-area: two;

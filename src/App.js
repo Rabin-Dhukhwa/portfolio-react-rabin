@@ -16,9 +16,13 @@ function App() {
   return (
     <div className="">
       {/* <!-- Dark mode Button --> */}
+
       <input type="checkbox" id="darkMode" class="dark-mode-checkbox" />
 
       <div class="wrapper">
+        <label for="darkMode">
+          <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+        </label>
         <Header />
         <Hero />
         <Skills />
