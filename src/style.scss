@@ -195,7 +195,7 @@ section {
           .line {
             font-size: 0.8rem;
             &::before {
-              left: 43%;
+              left: 35%;
             }
           }
         }
@@ -211,8 +211,9 @@ section {
   margin: 10rem auto 3rem auto;
   padding: 0 2rem;
   width: 90vw;
-  height: 65vh;
-  grid-template-areas: "one two";
+  display: grid;
+  grid-template-areas: "one  two";
+  grid-template-columns: 2fr 1fr;
 
   .left {
     margin-top: -4rem;
@@ -230,7 +231,7 @@ section {
     grid-area: two;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.8rem;
 
     div {
@@ -271,11 +272,13 @@ section {
     grid-template-areas:
       "one"
       "two";
+    grid-template-columns: 1fr;
     padding-bottom: 2rem;
+    transition: all 1s;
 
     .right {
       align-items: center;
-      margin-top: 1rem;
+      margin-top: 3rem;
       gap: 0.5rem;
     }
   }

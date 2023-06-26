@@ -1,5 +1,6 @@
 import React from "react";
 import user from "../assets/imgs/user.png";
+import resume from "../assets/resume/unfinished-resume.pdf";
 
 export const Hero = () => {
   return (
@@ -13,11 +14,13 @@ export const Hero = () => {
         <div class="right flex">
           <div class="flex">
             <h2 class="name">Rabin</h2>
+          </div>
+          <div class="flex">
             <p class="tag">Web Developer</p>
           </div>
 
           <button>
-            <a href="#!">
+            <a href={resume} target="_blank" rel="noopener noreferrer">
               Download CV
               <span>
                 <i class="fa-solid fa-download"></i>
