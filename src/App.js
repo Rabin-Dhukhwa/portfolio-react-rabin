@@ -17,11 +17,11 @@ function App() {
     <div className="">
       {/* <!-- Dark mode Button --> */}
 
-      <input type="checkbox" id="darkMode" class="dark-mode-checkbox" />
+      <input type="checkbox" id="darkMode" className="dark-mode-checkbox" />
 
-      <div class="wrapper">
-        <label for="darkMode">
-          <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+      <div className="wrapper">
+        <label htmlFor="darkMode">
+          <i className="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
         </label>
         <Header />
         <Hero />

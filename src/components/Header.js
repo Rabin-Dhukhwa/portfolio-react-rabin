@@ -4,22 +4,22 @@ export const Header = () => {
   return (
     <>
       {/* <!-- Header --> */}
-      <header class="primary-header flex">
-        <div class="logo flex">
+      <header className="primary-header flex">
+        <div className="logo flex">
           <div>
             <h1>Rabin</h1>
           </div>
 
           <div>
-            <h1 class="line">Web Developer</h1>
+            <h1 className="line">Web Developer</h1>
           </div>
         </div>
-        <div class="right">
+        <div className="right">
           <input type="checkbox" id="check" />
-          <label for="check" class="menu-icon">
-            <i class="fa-solid fa-bars"></i>
+          <label for="check" className="menu-icon">
+            <i className="fa-solid fa-bars"></i>
           </label>
-          <ul class="navigation flex">
+          <ul className="navigation flex">
             <li>
               <a href="#home">Home</a>
             </li>

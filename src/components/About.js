@@ -4,29 +4,35 @@ import user from "../assets/imgs/user.png";
 export const About = () => {
   return (
     <>
-      {" "}
       {/* <!-- About Section --> */}
-      <section class="section5 flex" id="about">
-        <h1 class="title">About Me</h1>
+      <section className="section5 flex" id="about">
+        <h1 className="title">About Me</h1>
 
-        <div class="about-container flex">
-          <div class="left">
-            <div class="bg"></div>
-            <img src={user} alt="" />
+        <div className="about-container flex">
+          <div className="left flex">
+            <div className="bg"></div>
+            <img src={user} alt="Rabin" />
           </div>
 
-          <div class="right flex">
+          <div className="right flex">
             <h1>Rabin</h1>
             <p>
-              I grew up in Nepal and am currently living in Sydney, Australia.
+              I grew up in Nepal and am currently living in Crestwood,
+              Australia.
             </p>
 
-            <p>Sydney, Australia</p>
+            <p>Crestwood, Australia</p>
 
-            <a href="#!">Connect with me</a>
+            <a
+              href="https://www.linkedin.com/in/rabin-dhukhwa-8a5505156/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Connect with Linkedin
+            </a>
 
-            <div class="flex">
-              <div class="tag">Interests</div>
+            <div className="flex interest">
+              <div className="tag">Interests</div>
               <div>
                 <span>Coding</span>
                 <span>Football</span>

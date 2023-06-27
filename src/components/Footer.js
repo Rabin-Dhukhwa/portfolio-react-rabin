@@ -1,42 +1,63 @@
 import React from "react";
 
 export const Footer = () => {
+  const date = new Date().getFullYear();
   return (
     <>
-      {" "}
       {/* <!-- Footer --> */}
       <footer>
-        <div class="footer-container flex">
-          <div class="footer-top flex">
-            <div class="flex">
-              <h3>Links</h3>
-              <ul class="flex">
-                <li>Home</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact</li>
+        <div className="footer-container flex">
+          <div className="footer-top flex">
+            <div className="flex">
+              <h3>Portfolio Links</h3>
+              <ul className="flex">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
               </ul>
             </div>
 
-            <div class="flex">
+            <div className="flex">
               <h3>External Links</h3>
-              <ul class="flex">
-                <li>LinkedIn</li>
-                <li>GitHub</li>
-                <li>YouTube</li>
+              <ul className="flex">
+                <a
+                  href="https://www.linkedin.com/in/rabin-dhukhwa-8a5505156/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://github.com/Rabin-Dhukhwa"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  GitHub
+                </a>
               </ul>
             </div>
           </div>
 
-          <div class="footer-bottom flex">
-            <p>@2022 | All rights reserved.</p>
+          <div className="footer-bottom flex">
+            <p>&copy; {date} Rabin Dhukhwa. All rights reserved.</p>
           </div>
         </div>
         {/* <!-- Footer End --> */}
-        <div class="scroll-to-top">
-          <a href="#home" class="scroll-btn">
-            <i class="fa-solid fa-chevron-up"></i>
+        <div className="scroll-to-top">
+          <a href="#home" className="scroll-btn">
+            <i className="fa-solid fa-chevron-up"></i>
           </a>
         </div>
       </footer>

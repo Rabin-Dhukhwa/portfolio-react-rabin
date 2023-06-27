@@ -4,31 +4,36 @@ export const GetInTouch = () => {
   return (
     <>
       {/* <!-- Get in Touch Section --> */}
-      <section class="section6 flex" id="contact">
-        <h1 class="title">Get In Touch</h1>
+      <section className="section6 flex" id="contact">
+        <h1 className="title">Get In Touch</h1>
 
-        <div class="socials flex">
+        <div className="socials flex">
           <a
             href="https://www.linkedin.com/in/rabin-dhukhwa-8a5505156/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
+          <a
+            href="https://github.com/Rabin-Dhukhwa"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
         </div>
 
         <h1>OR</h1>
 
-        <div class="email-section flex">
-          <p>reach out over email</p>
-          <div class="email">
-            <a href="mailto:xyz@gmail.com">example@gmail.com</a>
+        <div className="email-section flex">
+          <div className="email">
+            <a href="mailto:dhukhwarabin@gmail.com">dhukhwarabin@gmail.com</a>
 
-            <div class="send">
-              <i class="fa-solid fa-paper-plane"></i>
+            <div className="send">
+              <a href="mailto:dhukhwarabin@gmail.com">
+                <i className="fa-solid fa-paper-plane"></i>
+              </a>
             </div>
           </div>
         </div>
