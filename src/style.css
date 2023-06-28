@@ -47,7 +47,7 @@ a {
 }
 
 section {
-  padding: 4rem;
+  padding: 2rem;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -137,14 +137,14 @@ section {
     background: var(--body-bg);
     position: fixed;
     left: 100%;
-    top: 4.7rem;
+    top: 3.5rem;
     transition: 0.5s ease-in-out;
   }
   .primary-header .right .navigation li {
     padding-left: 1rem;
   }
   .primary-header .right #check:checked ~ ul {
-    left: calc(100% - 13rem);
+    left: calc(100% - 12rem);
   }
 }
 @media (width <= 480px) {
@@ -229,7 +229,7 @@ section {
 }
 @media (width <= 768px) {
   .section1 .left img {
-    width: 70%;
+    min-width: 50%;
   }
 }
 
@@ -328,10 +328,10 @@ section {
 }
 .section4 .projects-container {
   width: 100%;
-  padding: 3rem 2rem 0 2rem;
+  padding: 3rem 0 0 0;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2.5rem;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .section4 .projects-container .project-card {
   cursor: pointer;
