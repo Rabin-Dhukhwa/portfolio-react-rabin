@@ -1,6 +1,6 @@
 :root {
   --color-dark: #2a2a2a;
-  --color-yellow: #ffca2f;
+  --color-yellow: #444444;
   --body-bg: #fff;
   --text-color: #000;
   --link-color: #0e76a8;
@@ -179,7 +179,7 @@ section {
 }
 .section1 .left img {
   height: 104%;
-  max-width: 34%;
+  max-width: 24%;
 }
 .section1 .right {
   grid-area: two;
@@ -265,7 +265,7 @@ section {
   letter-spacing: 2px;
 }
 .section2 .info-container .info-lists .info-content span p {
-  color: goldenrod;
+  color: #5e5e5e;
 }
 .section2 .info-container .info-lists .info-divider {
   width: 2px;
