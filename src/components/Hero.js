@@ -1,6 +1,6 @@
 import React from "react";
 import user from "../assets/imgs/user.png";
-import resume from "../assets/resume/unfinished-resume.pdf";
+import resume from "../assets/resume/cv.pdf";
 
 export const Hero = () => {
   return (
@@ -20,7 +20,7 @@ export const Hero = () => {
           </div>
 
           <button>
-            <a href={resume} target="_blank" rel="noopener noreferrer">
+            <a href={resume} target="_blank" rel=" noopener noreferrer ">
               Download CV
               <span>
                 <i className="fa-solid fa-download"></i>
