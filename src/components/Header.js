@@ -1,6 +1,11 @@
 import React from "react";
 
 export const Header = () => {
+  const hideMenu = () => {
+    const checkbox = document.getElementById("check");
+    checkbox.checked = false;
+  };
+
   return (
     <>
       {/* <!-- Header --> */}
@@ -21,19 +26,29 @@ export const Header = () => {
           </label>
           <ul className="navigation flex">
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" onClick={hideMenu}>
+                Home
+              </a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills" onClick={hideMenu}>
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects" onClick={hideMenu}>
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" onClick={hideMenu}>
+                About
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={hideMenu}>
+                Contact
+              </a>
             </li>
           </ul>
         </div>
