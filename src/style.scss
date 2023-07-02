@@ -217,6 +217,7 @@ section {
   display: grid;
   grid-template-areas: "one  two";
   grid-template-columns: 2fr 1fr;
+  box-sizing: border-box;
 
   .left {
     margin-top: -4rem;
