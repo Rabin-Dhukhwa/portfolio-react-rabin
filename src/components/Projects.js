@@ -1,10 +1,17 @@
 import React from "react";
-import ec from "../assets/imgs/ec.png";
+import buyhere from "../assets/imgs/buyhere.JPG";
+import techmart from "../assets/imgs/techmart.JPG";
 import expenseTracker from "../assets/imgs/expenseTracker.JPG";
 
 export const Projects = () => {
-  const openOnClick = () => {
+  const openOnClickExpenseTracker = () => {
     window.open("https://financial-expense-tracker.netlify.app/");
+  };
+  const openOnClickBuyhere = () => {
+    window.open("https://www.buyhere.au/");
+  };
+  const openOnClickTechmart = () => {
+    window.open("https://techmart-cms.vercel.app/");
   };
   return (
     <>
@@ -16,31 +23,51 @@ export const Projects = () => {
         <div className="projects-container grid">
           <div className="project-card flex">
             <div className="top">
-              <img src={ec} alt="img" />
+              <img src={buyhere} alt="img" onClick={openOnClickBuyhere} />
             </div>
 
             <div className="bottom">
-              <p>Dec 15, 2022</p>
-              <p>Full-Stack Web Application Built Using React & Firebase</p>
+              <p onClick={openOnClickBuyhere}>Dec 15, 2023</p>
+              <p>
+                <a
+                  href="https://buyhere.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Mern Stack e-commerce website
+                </a>
+              </p>
             </div>
           </div>
           <div className="project-card flex">
             <div className="top">
-              <img src={ec} alt="img" />
+              <img src={techmart} alt="img" onClick={openOnClickTechmart} />
             </div>
 
             <div className="bottom">
-              <p>Dec 15, 2022</p>
-              <p>Full-Stack Web Application Built Using React & Firebase</p>
+              <p onClick={openOnClickTechmart}>Sept 16, 2023</p>
+              <p>
+                <a
+                  href="https://techmart-cms.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  E-commerce Admin CMS
+                </a>
+              </p>
             </div>
           </div>
           <div className="project-card flex">
             <div className="top">
-              <img src={expenseTracker} alt="img" onClick={openOnClick} />
+              <img
+                src={expenseTracker}
+                alt="img"
+                onClick={openOnClickExpenseTracker}
+              />
             </div>
 
             <div className="bottom">
-              <p onClick={openOnClick}>Dec 15, 2022</p>
+              <p onClick={openOnClickExpenseTracker}>May 12, 2023</p>
               <p>
                 <a
                   href="https://financial-expense-tracker.netlify.app/"

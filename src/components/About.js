@@ -17,8 +17,8 @@ export const About = () => {
           <div className="right flex">
             <h1>Rabin</h1>
             <p>
-              I grew up in Nepal and am currently living in Crestwood,
-              Australia.
+              Passionate and enthusiastic web developer with a proven track
+              record in real-life projects.
             </p>
 
             <p>Crestwood, Australia</p>
