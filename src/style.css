@@ -179,8 +179,8 @@ section {
   align-items: center;
 }
 .section1 .left img {
-  height: 104%;
-  max-width: 24%;
+  height: 142%;
+  max-width: 40%;
 }
 .section1 .right {
   grid-area: two;

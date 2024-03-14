@@ -1,5 +1,5 @@
 import React from "react";
-import user from "../assets/imgs/user.png";
+import user from "../assets/imgs/user111.png";
 import resume from "../assets/resume/cv.pdf";
 
 export const Hero = () => {
